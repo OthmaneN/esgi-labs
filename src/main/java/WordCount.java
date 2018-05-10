@@ -21,5 +21,7 @@ public class WordCount {
 
         //Write your code here
         JavaRDD<String> textLines = sc.textFile(args[0], 10).toJavaRDD();
+        //Hints: These are the transformations you'll need: flatmap, mapToPair, reduceByKey
+        //Have fun :D
     }
 }
